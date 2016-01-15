@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Animated Progress Bars</title>
+	<link rel="stylesheet" href="css/jquery.progressBar.css" />
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/jquery.progressBar.js"></script>
+	<script src="lib/velocity.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".default").progressBar();
+			$(".pink").progressBar({ fillColor: "#f5a1e0" });
+			$(".yellow").progressBar({ fillColor: "#e6c863" });
+			$(".green").progressBar({ fillColor: "#86d936" });
+			$(".orange").progressBar({ fillColor: "#ef8338" });
+		});
+	</script>
+	<style type="text/css">
+		section {
+			margin: 0 auto;
+			width: 40%;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="progress default" data-step="1" data-total="5"></div>
+		<div class="progress pink" data-step="2" data-total="5"></div>
+		<div class="progress yellow" data-step="3" data-total="5"></div>
+		<div class="progress green" data-step="4" data-total="5"></div>
+		<div class="progress orange" data-step="5" data-total="5"></div>
+	</section>
+</body>
+</html>
