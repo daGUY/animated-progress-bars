@@ -5,6 +5,8 @@
 ## Description
 Add a subtle "barbershop pole" stripe animation to progress bars. Gracefully degrades in older browsers that don't support CSS3 animation and/or linear gradients (the stripes will appear without movement, or not appear at all).
 
+**[View Demo](http://scariati.kissr.com/github/apb/)**
+
 ## Dependencies
 * [jQuery](http://jquery.com)
 * [Velocity](http://julian.com/research/velocity/)
