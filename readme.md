@@ -12,13 +12,13 @@ Add a subtle "barbershop pole" stripe animation to progress bars. Gracefully deg
 * [Velocity](http://julian.com/research/velocity/)
 
 ## Use
-Include jQuery, Velocity, the `jquery.progressBar.js` plugin, and `jquery.progressBar.css` in your HTML:
+Include jQuery, Velocity, the `jquery.progressBar.min.js` plugin, and `jquery.progressBar.css` in your HTML:
 
 ```html
 <head>
 	<link rel="stylesheet" href="css/jquery.progressBar.css" />
 	<script src="lib/jquery.min.js"></script>
-	<script src="lib/jquery.progressBar.js"></script>
+	<script src="lib/jquery.progressBar.min.js"></script>
 	<script src="lib/velocity.min.js"></script>
 </head>
 ```
