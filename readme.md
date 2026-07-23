@@ -2,11 +2,11 @@
  
 Add a subtle "barbershop pole" stripe animation to progress bars. Gracefully degrades in older browsers that don't support CSS3 animation and/or linear gradients (the stripes will appear without movement, or not appear at all).
 
-**[View Demo](http://daguy.github.io/animated-progress-bars)**
+**[View Demo](https://daguy.github.io/animated-progress-bars)**
 
 ## Dependencies
-* [jQuery](http://jquery.com)
-* [Velocity](http://julian.com/research/velocity/)
+* [jQuery](https://jquery.com)
+* [Velocity](https://julian.com/research/velocity/)
 
 ## Use
 Include jQuery, Velocity, the `jquery.progressBar.min.js` plugin, and `jquery.progressBar.css` in your HTML:
